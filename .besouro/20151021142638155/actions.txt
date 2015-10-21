@@ -19,3 +19,16 @@ RefactoringAction 1445428063984 TestPlanetExplorer.java REMOVE import org.unioul
 RefactoringAction 1445428078526 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer IMPORT
 RefactoringAction 1445428086039 TestPlanetExplorer.java RENAME import org.unioulu.tol.sqat2015.planetExplorer=>import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
 EditAction 1445428173207 TestPlanetExplorer.java 353 1 2 1
+CompilationAction 1445428173309 TestPlanetExplorer.java
+UnitTestCaseAction 1445428179494 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445428179496 TestPlanetExplorer FAIL
+RefactoringAction 1445428188860 PlanetExplorer.java ADD Object x FIELD
+RefactoringAction 1445428196654 PlanetExplorer.java REMOVE x FIELD
+RefactoringAction 1445428235826 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1445428250381 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1445428258423 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1445428279672 PlanetExplorer.java ADD int getX() METHOD
+RefactoringAction 1445428279673 PlanetExplorer.java ADD void setX(int) METHOD
+RefactoringAction 1445428279673 PlanetExplorer.java ADD int getY() METHOD
+RefactoringAction 1445428279674 PlanetExplorer.java ADD void setY(int) METHOD
+EditAction 1445428403644 PlanetExplorer.java 1636 6 8 0
