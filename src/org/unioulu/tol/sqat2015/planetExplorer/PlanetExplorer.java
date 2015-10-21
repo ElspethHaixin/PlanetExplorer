@@ -34,6 +34,14 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
 		this.planet = new int[x][y];
+		int i = 0, j = 0;
+		for (; i < x; i++)
+		{
+			for (j = 0; j < y; j++)
+			{
+				this.planet[i][j] = 0;
+			}
+		}
 		this.width = x;
 		this.height = y;
 		this.x = 0;
