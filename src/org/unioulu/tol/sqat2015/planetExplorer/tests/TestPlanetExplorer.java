@@ -36,9 +36,9 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testMoving() {
-		PlanetExplorer pe = new PlanetExplorer(2, 2, "");
-		assertEquals("(0,0,W)", pe.executeCommand("l"));
-		assertEquals("(1,0,W)", pe.executeCommand("f"));
+		PlanetExplorer pe = new PlanetExplorer(3, 3, "");
+		assertEquals("(2,2,E)", pe.executeCommand("ffrff"));
+		//assertEquals("(1,0,W)", pe.executeCommand("f"));
 	}
 	
 }
