@@ -42,6 +42,27 @@ public class PlanetExplorer {
 				this.planet[i][j] = 0;
 			}
 		}
+		int k = 0;
+		int l = obstacles.length();
+		for (; k < l; k++)
+		{
+			if (obstacles.charAt(k) == '(')
+			{
+				i = 0;
+				j = 0;
+				for (k++; obstacles.charAt(k) != ','; k++)
+				{
+					i *= 10;
+					i += obstacles.charAt(k) - '0';
+				}
+				for (k++; obstacles.charAt(k) != ')'; k++)
+				{
+					j *= 10;
+					j += obstacles.charAt(k) - '0';
+				}
+				this.planet[i][j] = 1;
+			}
+		}
 		this.width = x;
 		this.height = y;
 		this.x = 0;
