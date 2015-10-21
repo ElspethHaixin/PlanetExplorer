@@ -69,3 +69,8 @@ EditAction 1445429237243 TestPlanetExplorer.java 633 3 6 3
 UnitTestCaseAction 1445429238906 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445429238906 TestPlanetExplorer FAIL
 EditAction 1445429256845 PlanetExplorer.java 1838 6 11 0
+UnitTestCaseAction 1445429258043 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445429258044 TestPlanetExplorer OK
+RefactoringAction 1445429272120 TestPlanetExplorer.java ADD void testTurning()/2 METHOD
+RefactoringAction 1445429275135 TestPlanetExplorer.java RENAME testTurning()/2=>void testTurning2() METHOD
+EditAction 1445429369860 TestPlanetExplorer.java 784 4 8 4
