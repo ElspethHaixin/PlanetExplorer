@@ -143,6 +143,15 @@ public class PlanetExplorer {
 			}
 		}
 		String ans = "(" + this.x + ',' + this.y + ',' + this.turn[this.face] + ')';
+		l = obs.size();
+		for (i = 0; i < l; i++)
+		{
+			ans += '(';
+			ans += obs.get(i).ox;
+			ans += ',';
+			ans += obs.get(i).oy;
+			ans += ')';
+		}
 		return ans;
 	}
 }
