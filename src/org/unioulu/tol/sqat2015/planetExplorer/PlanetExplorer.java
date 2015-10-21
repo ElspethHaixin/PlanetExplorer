@@ -7,7 +7,7 @@ public class PlanetExplorer {
 	private int[][] planet;
 	private int width, height;
 	private int x, y;
-	private char face;
+	private int face;
 	private char[] turn = {'N', 'E', 'S', 'W'};
 
 	public int getX() {
@@ -38,7 +38,7 @@ public class PlanetExplorer {
 		this.height = y;
 		this.x = 0;
 		this.y = 0;
-		this.face = 'N';
+		this.face = 0;
 	}
 	
 	public String executeCommand(String command){
@@ -52,7 +52,16 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-		
-		return "(" + this.x + ',' + this.y + ',' + this.face + ')';
+		int l = command.length();
+		int i = 0;
+		for (; i < l; i++)
+		{
+			if (command.charAt(i) == 'r')
+			{
+				this.face = (this.face + 1) % 4;
+			}
+		}
+		String ans = "(" + this.x + ',' + this.y + ',' + this.turn[this.face] + ')';
+		return ans;
 	}
 }
