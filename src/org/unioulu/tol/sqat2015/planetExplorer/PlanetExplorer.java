@@ -60,6 +60,10 @@ public class PlanetExplorer {
 			{
 				this.face = (this.face + 1) % 4;
 			}
+			else if (command.charAt(i) == 'l')
+			{
+				this.face = (this.face - 1) % 4;
+			}
 		}
 		String ans = "(" + this.x + ',' + this.y + ',' + this.turn[this.face] + ')';
 		return ans;
