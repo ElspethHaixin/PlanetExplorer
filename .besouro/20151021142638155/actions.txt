@@ -37,3 +37,6 @@ UnitTestSessionAction 1445428405300 TestPlanetExplorer OK
 RefactoringAction 1445428416480 TestPlanetExplorer.java ADD void testPlanet()/2 METHOD
 RefactoringAction 1445428420494 TestPlanetExplorer.java RENAME testPlanet()/2=>void testPlanet2() METHOD
 EditAction 1445428422122 TestPlanetExplorer.java 481 2 4 2
+UnitTestCaseAction 1445428423693 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445428423694 TestPlanetExplorer.testPlanet2 OK
+EditAction 1445428442321 TestPlanetExplorer.java 481 2 4 2
