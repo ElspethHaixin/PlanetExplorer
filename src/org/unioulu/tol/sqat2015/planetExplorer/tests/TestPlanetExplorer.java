@@ -11,18 +11,13 @@ public class TestPlanetExplorer {
 	@Test
 	public void testPlanet() {
 		PlanetExplorer pe = new PlanetExplorer(1, 1, "");
-		assertEquals(1, pe.getX());
+		assertEquals(0, pe.getX());
 	}
 	
 	@Test
 	public void testPlanet2() {
 		PlanetExplorer pe = new PlanetExplorer(1, 1, "");
-		assertEquals(1, pe.getY());
+		assertEquals(0, pe.getY());
 	}
 	
-	@Test
-	public void testPlanet() {
-		PlanetExplorer pe = new PlanetExplorer(1, 1, "");
-		assertEquals(1, pe.getX());
-	}
 }
