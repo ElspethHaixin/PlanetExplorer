@@ -158,6 +158,6 @@ public class PlanetExplorer {
 	public static void main(String[] args)
 	{
 		PlanetExplorer pe = new PlanetExplorer(3, 3, "(2,2)");
-		System.out.print(pe.executeCommand("ffrff"));
+		System.out.print(pe.executeCommand("ffrfff"));
 	}
 }
