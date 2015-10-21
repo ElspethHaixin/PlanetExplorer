@@ -1,5 +1,7 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
+import java.util.List;
+
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID: 113
 // Finish time:
@@ -9,6 +11,12 @@ public class PlanetExplorer {
 	private int x, y;
 	private int face;
 	private char[] turn = {'N', 'E', 'S', 'W'};
+	private class Ob
+	{
+		int ox;
+		int oy;
+	}
+	private List<Ob> obs;
 
 	public int getX() {
 		return x;
@@ -95,24 +103,29 @@ public class PlanetExplorer {
 			}
 			else if (command.charAt(i) == 'f')
 			{
-				if(this.face == 0)
+				if (this.face == 0)
 					this.y = (this.y + 1) % height;
-				if(this.face == 1)
+				if (this.face == 1)
 					this.x = (this.x + 1) % width;
-				if(this.face == 2)
+				if (this.face == 2)
 					this.y = (this.y + height - 1) % height;
-				if(this.face == 3)
+				if (this.face == 3)
 					this.x = (this.x + width - 1) % width;
+				if (this.planet[this.x][this.y] == 1)
+				{
+					this.planet[this.x][this.y] = 0;
+					
+				}
 			}
 			else if (command.charAt(i) == 'b')
 			{
-				if(this.face == 2)
+				if (this.face == 2)
 					this.y = (this.y + 1) % height;
-				if(this.face == 3)
+				if (this.face == 3)
 					this.x = (this.x + 1) % width;
-				if(this.face == 0)
+				if (this.face == 0)
 					this.y = (this.y + height - 1) % height;
-				if(this.face == 1)
+				if (this.face == 1)
 					this.x = (this.x + width - 1) % width;
 			}
 		}

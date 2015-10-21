@@ -111,3 +111,17 @@ UnitTestSessionAction 1445430493978 TestPlanetExplorer OK
 EditAction 1445430502537 TestPlanetExplorer.java 1041 5 12 7
 EditAction 1445430822890 PlanetExplorer.java 2860 6 17 0
 EditAction 1445431437037 PlanetExplorer.java 3267 6 20 0
+RefactoringAction 1445431641442 PlanetExplorer.java ADD int getX() METHOD
+RefactoringAction 1445431641443 PlanetExplorer.java ADD void setX(int) METHOD
+RefactoringAction 1445431641444 PlanetExplorer.java ADD int getY() METHOD
+RefactoringAction 1445431641444 PlanetExplorer.java ADD void setY(int) METHOD
+RefactoringAction 1445431641445 PlanetExplorer.java ADD PlanetExplorer(int, int, String) METHOD
+RefactoringAction 1445431641445 PlanetExplorer.java ADD String executeCommand(String) METHOD
+RefactoringAction 1445431648486 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1445431662050 PlanetExplorer.java RENAME x=>int ox FIELD
+RefactoringAction 1445431663070 PlanetExplorer.java ADD int o FIELD
+RefactoringAction 1445431664090 PlanetExplorer.java RENAME o=>int oy FIELD
+RefactoringAction 1445431697231 PlanetExplorer.java ADD List<Ob> o FIELD
+RefactoringAction 1445431698252 PlanetExplorer.java RENAME o=>List<Ob> obs FIELD
+RefactoringAction 1445431711293 PlanetExplorer.java ADD import java.util.List IMPORT
+EditAction 1445431720066 PlanetExplorer.java 3477 6 20 0
