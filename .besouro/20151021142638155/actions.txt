@@ -1,0 +1,9 @@
+FileOpenedAction 1445426798578 TestPlanetExplorer.java 228 1 1 0
+RefactoringAction 1445426962448 TestPlanetExplorer.java RENAME test()=>void test1() METHOD
+RefactoringAction 1445426965962 TestPlanetExplorer.java RENAME test1()=>void test() METHOD
+RefactoringAction 1445427666591 PlanetExplorer.java ADD int plan FIELD
+RefactoringAction 1445427667613 PlanetExplorer.java RENAME plan=>int planert FIELD
+RefactoringAction 1445427669135 PlanetExplorer.java RENAME planert=>int plane FIELD
+RefactoringAction 1445427875187 TestPlanetExplorer.java RENAME test()=>void testPlanet() METHOD
+RefactoringAction 1445427946691 PlanetExplorer.java REMOVE plane FIELD
+EditAction 1445427948504 PlanetExplorer.java 1346 2 1 0
