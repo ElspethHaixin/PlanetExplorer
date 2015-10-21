@@ -60,3 +60,9 @@ RefactoringAction 1445429013952 TestPlanetExplorer.java REMOVE testPlanet()/2 ME
 UnitTestCaseAction 1445429067275 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445429067276 TestPlanetExplorer FAIL
 EditAction 1445429086564 TestPlanetExplorer.java 484 2 4 2
+UnitTestCaseAction 1445429088193 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445429088194 TestPlanetExplorer OK
+RefactoringAction 1445429112519 TestPlanetExplorer.java ADD void testPlanet()/2 METHOD
+RefactoringAction 1445429139047 TestPlanetExplorer.java RENAME testPlanet()/2=>void test() METHOD
+RefactoringAction 1445429141562 TestPlanetExplorer.java RENAME test()=>void testTurning() METHOD
+EditAction 1445429237243 TestPlanetExplorer.java 633 3 6 3

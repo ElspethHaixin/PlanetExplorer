@@ -2,3 +2,5 @@
 1445428423694 test-addition 1 7 true
 1445428423695 test-addition 1 7 true
 1445428443830 regression 1 1 true
+1445429088194 test-first 4 631 true
+1445429088195 test-last 1 631 false
