@@ -62,7 +62,7 @@ public class PlanetExplorer {
 			}
 			else if (command.charAt(i) == 'l')
 			{
-				this.face = (this.face - 1) % 4;
+				this.face = (this.face + 3) % 4;
 			}
 		}
 		String ans = "(" + this.x + ',' + this.y + ',' + this.turn[this.face] + ')';
