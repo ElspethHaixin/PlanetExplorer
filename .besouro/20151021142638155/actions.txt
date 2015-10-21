@@ -136,3 +136,6 @@ RefactoringAction 1445432173688 TestPlanetExplorer.java RENAME te()=>void test()
 RefactoringAction 1445432177202 TestPlanetExplorer.java RENAME test()=>void testLocating() METHOD
 RefactoringAction 1445432187718 TestPlanetExplorer.java RENAME testLocating()=>void testLocatingObstacles() METHOD
 EditAction 1445432248351 TestPlanetExplorer.java 1216 6 14 8
+UnitTestCaseAction 1445432249929 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445432249929 TestPlanetExplorer FAIL
+EditAction 1445432305502 TestPlanetExplorer.java 1215 6 14 8
