@@ -113,13 +113,24 @@ public class PlanetExplorer {
 					this.y = (this.y + height - 1) % height;
 				if (this.face == 3)
 					this.x = (this.x + width - 1) % width;
-				if (this.planet[this.x][this.y] == 1)
+				if (this.planet[this.x][this.y] != 0)
 				{
-					this.planet[this.x][this.y] = 0;
-					ob o = new ob();
-					o.ox = this.x;
-					o.oy = this.y;
-					this.obs.add(o);
+					if (this.planet[this.x][this.y] == 2)
+					{
+						this.planet[this.x][this.y] = 1;
+						ob o = new ob();
+						o.ox = this.x;
+						o.oy = this.y;
+						this.obs.add(o);
+					}
+					if (this.face == 2)
+						this.y = (this.y + 1) % height;
+					if (this.face == 3)
+						this.x = (this.x + 1) % width;
+					if (this.face == 0)
+						this.y = (this.y + height - 1) % height;
+					if (this.face == 1)
+						this.x = (this.x + width - 1) % width;
 				}
 			}
 			else if (command.charAt(i) == 'b')
