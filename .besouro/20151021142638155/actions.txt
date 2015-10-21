@@ -130,3 +130,9 @@ EditAction 1445431737159 PlanetExplorer.java 3477 6 20 0
 RefactoringAction 1445431795259 PlanetExplorer.java ADD import java.util.ArrayList IMPORT
 EditAction 1445431935961 PlanetExplorer.java 3806 6 21 0
 EditAction 1445432126165 PlanetExplorer.java 3962 6 23 0
+RefactoringAction 1445432146156 TestPlanetExplorer.java ADD void testMoving()/2 METHOD
+RefactoringAction 1445432172673 TestPlanetExplorer.java RENAME testMoving()/2=>void te() METHOD
+RefactoringAction 1445432173688 TestPlanetExplorer.java RENAME te()=>void test() METHOD
+RefactoringAction 1445432177202 TestPlanetExplorer.java RENAME test()=>void testLocating() METHOD
+RefactoringAction 1445432187718 TestPlanetExplorer.java RENAME testLocating()=>void testLocatingObstacles() METHOD
+EditAction 1445432248351 TestPlanetExplorer.java 1216 6 14 8

@@ -40,4 +40,10 @@ public class TestPlanetExplorer {
 		assertEquals("(2,2,E)", pe.executeCommand("ffrff"));
 	}
 	
+	@Test
+	public void testLocatingObstacles() {
+		PlanetExplorer pe = new PlanetExplorer(3, 3, "(2,2)");
+		assertEquals("(1,2,E)(2,2)", pe.executeCommand("ffrfff"));
+	}
+	
 }
