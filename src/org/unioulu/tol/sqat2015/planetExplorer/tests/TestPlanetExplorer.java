@@ -46,4 +46,16 @@ public class TestPlanetExplorer {
 		assertEquals("(1,2,E)(2,2)", pe.executeCommand("ffrfff"));
 	}
 	
+	@Test
+	public void testLocatingObstacles2() {
+		PlanetExplorer pe = new PlanetExplorer(5, 5, "(2,2)(2,1)");
+		assertEquals("(1,1,E)(2,2)(2,1)", pe.executeCommand("ffrfffrflf"));
+	}
+	
+	@Test
+	public void testLocatingObstacles3() {
+		PlanetExplorer pe = new PlanetExplorer(3, 3, "(2,2)");
+		assertEquals("(1,2,E)(2,2)", pe.executeCommand("ffrfff"));
+	}
+	
 }

@@ -158,3 +158,8 @@ UnitTestCaseAction 1445433140858 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445433140859 TestPlanetExplorer OK
 RefactoringAction 1445433207078 PlanetExplorer.java REMOVE main(String METHOD
 EditAction 1445433216175 PlanetExplorer.java 4642 6 23 0
+RefactoringAction 1445433238916 TestPlanetExplorer.java ADD void testLocatingObstacles()/2 METHOD
+RefactoringAction 1445433241430 TestPlanetExplorer.java ADD void testLocatingObstacles()/3 METHOD
+RefactoringAction 1445433247960 TestPlanetExplorer.java RENAME testLocatingObstacles()/3=>void testLocatingObstacles2() METHOD
+RefactoringAction 1445433250974 TestPlanetExplorer.java RENAME testLocatingObstacles()/2=>void testLocatingObstacles3() METHOD
+EditAction 1445433351391 TestPlanetExplorer.java 1582 8 18 10
