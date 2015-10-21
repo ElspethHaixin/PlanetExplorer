@@ -69,7 +69,7 @@ public class PlanetExplorer {
 					j *= 10;
 					j += obstacles.charAt(k) - '0';
 				}
-				this.planet[i][j] = 1;
+				this.planet[i][j] = 2;
 			}
 		}
 		this.width = x;
