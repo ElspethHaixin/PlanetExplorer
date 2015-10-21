@@ -11,12 +11,12 @@ public class PlanetExplorer {
 	private int x, y;
 	private int face;
 	private char[] turn = {'N', 'E', 'S', 'W'};
-	private class Ob
+	private class ob
 	{
 		int ox;
 		int oy;
 	}
-	private List<Ob> obs;
+	private List<ob> obs;
 
 	public int getX() {
 		return x;

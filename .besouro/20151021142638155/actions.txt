@@ -125,3 +125,5 @@ RefactoringAction 1445431697231 PlanetExplorer.java ADD List<Ob> o FIELD
 RefactoringAction 1445431698252 PlanetExplorer.java RENAME o=>List<Ob> obs FIELD
 RefactoringAction 1445431711293 PlanetExplorer.java ADD import java.util.List IMPORT
 EditAction 1445431720066 PlanetExplorer.java 3477 6 20 0
+RefactoringAction 1445431727341 PlanetExplorer.java RENAME Ob=>class ob null
+EditAction 1445431737159 PlanetExplorer.java 3477 6 20 0
