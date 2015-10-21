@@ -157,11 +157,7 @@ public class PlanetExplorer {
 	
 	public static void main(String[] args)
 	{
-		PlanetExplorer pe = new PlanetExplorer(3, 3, "(2,2)(1,1)(0,0)");
-		int i=0,j=0;
-		for (i =0;i<3;i++){
-			for(j=0;j<3;j++){
-				System.out.print(pe.planet[i][j]);
-				}System.out.println();}
+		PlanetExplorer pe = new PlanetExplorer(3, 3, "(2,2)");
+		System.out.print(pe.executeCommand("ffrff"));
 	}
 }
