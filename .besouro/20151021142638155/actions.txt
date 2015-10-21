@@ -8,3 +8,14 @@ RefactoringAction 1445427875187 TestPlanetExplorer.java RENAME test()=>void test
 RefactoringAction 1445427946691 PlanetExplorer.java REMOVE plane FIELD
 EditAction 1445427948504 PlanetExplorer.java 1346 2 1 0
 EditAction 1445427964234 TestPlanetExplorer.java 257 1 1 0
+CompilationAction 1445427964496 TestPlanetExplorer.java
+RefactoringAction 1445427982482 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer IMPORT
+RefactoringAction 1445427999226 TestPlanetExplorer.java REMOVE import org.unioulu.tol.sqat2015.planetExplorer IMPORT
+RefactoringAction 1445428001736 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.org.unioulu.tol.sqat2015.planetExplorer IMPORT
+RefactoringAction 1445428014251 TestPlanetExplorer.java RENAME import org.unioulu.tol.sqat2015.planetExplorer.org.unioulu.tol.sqat2015.planetExplorer=>import org.unioulu.tol.sqat2015.planetExplorerplanetExplorer IMPORT
+RefactoringAction 1445428015265 TestPlanetExplorer.java RENAME import org.unioulu.tol.sqat2015.planetExplorerplanetExplorer=>import org.unioulu.tol.sqat2015.planetExplorer.planetExplorer IMPORT
+RefactoringAction 1445428017274 TestPlanetExplorer.java RENAME import org.unioulu.tol.sqat2015.planetExplorer.planetExplorer=>import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
+RefactoringAction 1445428063984 TestPlanetExplorer.java REMOVE import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
+RefactoringAction 1445428078526 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer IMPORT
+RefactoringAction 1445428086039 TestPlanetExplorer.java RENAME import org.unioulu.tol.sqat2015.planetExplorer=>import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
+EditAction 1445428173207 TestPlanetExplorer.java 353 1 2 1
