@@ -14,5 +14,9 @@ public class TestPlanetExplorer {
 		assertEquals(1, pe.getX());
 	}
 	
-	
+	@Test
+	public void testPlanet2() {
+		PlanetExplorer pe = new PlanetExplorer(1, 1, "");
+		assertEquals(1, pe.getX());
+	}
 }
