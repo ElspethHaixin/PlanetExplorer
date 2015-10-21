@@ -161,7 +161,7 @@ public class PlanetExplorer {
 		int i=0,j=0;
 		for (i =0;i<3;i++)
 			for(j=0;j<3;j++){
-				System.out.println(pe.planet[i][j]);
+				System.out.print(pe.planet[i][j]);
 				System.out.println();}
 	}
 }
