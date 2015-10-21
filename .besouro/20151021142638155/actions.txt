@@ -163,3 +163,6 @@ RefactoringAction 1445433241430 TestPlanetExplorer.java ADD void testLocatingObs
 RefactoringAction 1445433247960 TestPlanetExplorer.java RENAME testLocatingObstacles()/3=>void testLocatingObstacles2() METHOD
 RefactoringAction 1445433250974 TestPlanetExplorer.java RENAME testLocatingObstacles()/2=>void testLocatingObstacles3() METHOD
 EditAction 1445433351391 TestPlanetExplorer.java 1582 8 18 10
+UnitTestCaseAction 1445433352959 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445433352960 TestPlanetExplorer OK
+EditAction 1445433360791 TestPlanetExplorer.java 1581 8 18 10
