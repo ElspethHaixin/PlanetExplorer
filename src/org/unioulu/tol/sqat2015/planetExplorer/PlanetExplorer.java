@@ -1,5 +1,6 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
+import java.util.ArrayList;
 import java.util.List;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
@@ -91,6 +92,7 @@ public class PlanetExplorer {
 		 */
 		int l = command.length();
 		int i = 0;
+		this.obs = new ArrayList<ob>();
 		for (; i < l; i++)
 		{
 			if (command.charAt(i) == 'r')
@@ -114,7 +116,10 @@ public class PlanetExplorer {
 				if (this.planet[this.x][this.y] == 1)
 				{
 					this.planet[this.x][this.y] = 0;
-					
+					ob o = new ob();
+					o.ox = this.x;
+					o.oy = this.y;
+					this.obs.add(o);
 				}
 			}
 			else if (command.charAt(i) == 'b')
@@ -127,6 +132,14 @@ public class PlanetExplorer {
 					this.y = (this.y + height - 1) % height;
 				if (this.face == 1)
 					this.x = (this.x + width - 1) % width;
+				if (this.planet[this.x][this.y] == 1)
+				{
+					this.planet[this.x][this.y] = 0;
+					ob o = new ob();
+					o.ox = this.x;
+					o.oy = this.y;
+					this.obs.add(o);
+				}
 			}
 		}
 		String ans = "(" + this.x + ',' + this.y + ',' + this.turn[this.face] + ')';
