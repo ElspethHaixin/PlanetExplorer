@@ -54,8 +54,8 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testLocatingObstacles3() {
-		PlanetExplorer pe = new PlanetExplorer(3, 3, "(2,2)");
-		assertEquals("(1,2,E)(2,2)", pe.executeCommand("ffrffbbb"));
+		PlanetExplorer pe = new PlanetExplorer(6, 6, "(2,2)(0,5)(5,0)");
+		assertEquals("(0,0,N)(2,2)(0,5)(5,0)", pe.executeCommand("ffrfffrbbblllfrfrbbl"));
 	}
 	
 }
