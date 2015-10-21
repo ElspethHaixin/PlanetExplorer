@@ -64,6 +64,21 @@ public class PlanetExplorer {
 			{
 				this.face = (this.face + 3) % 4;
 			}
+			else if (command.charAt(i) == 'f')
+			{
+				if(this.face == 0)
+					this.y = (this.y + 1) % height;
+				if(this.face == 1)
+					this.x = (this.x + 1) % width;
+				if(this.face == 2)
+					this.y = (this.y + height - 1) % height;
+				if(this.face == 3)
+					this.x = (this.x + width - 1) % width;
+			}
+			else if (command.charAt(i) == 'b')
+			{
+				this.face = (this.face + 3) % 4;
+			}
 		}
 		String ans = "(" + this.x + ',' + this.y + ',' + this.turn[this.face] + ')';
 		return ans;
