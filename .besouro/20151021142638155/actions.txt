@@ -40,3 +40,17 @@ EditAction 1445428422122 TestPlanetExplorer.java 481 2 4 2
 UnitTestCaseAction 1445428423693 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445428423694 TestPlanetExplorer.testPlanet2 OK
 EditAction 1445428442321 TestPlanetExplorer.java 481 2 4 2
+UnitTestCaseAction 1445428443830 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445428443830 TestPlanetExplorer OK
+RefactoringAction 1445428457089 TestPlanetExplorer.java ADD void testPlanet()/2 METHOD
+RefactoringAction 1445428661717 PlanetExplorer.java ADD char pos FIELD
+RefactoringAction 1445428751523 PlanetExplorer.java REMOVE pos FIELD
+RefactoringAction 1445428753041 PlanetExplorer.java ADD char face FIELD
+RefactoringAction 1445428760575 PlanetExplorer.java ADD char turn FIELD
+RefactoringAction 1445428768592 PlanetExplorer.java REMOVE turn FIELD
+RefactoringAction 1445428770608 PlanetExplorer.java ADD char FIELD
+RefactoringAction 1445428827945 PlanetExplorer.java ADD int width FIELD
+RefactoringAction 1445428830963 PlanetExplorer.java ADD int heght FIELD
+RefactoringAction 1445428831980 PlanetExplorer.java RENAME heght=>int he FIELD
+RefactoringAction 1445428833997 PlanetExplorer.java RENAME he=>int height FIELD
+EditAction 1445429004569 PlanetExplorer.java 1856 6 11 0

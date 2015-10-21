@@ -5,7 +5,10 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // Finish time:
 public class PlanetExplorer {
 	private int[][] planet;
+	private int width, height;
 	private int x, y;
+	private char face;
+	private char[] turn = {'N', 'E', 'S', 'W'};
 
 	public int getX() {
 		return x;
@@ -31,8 +34,11 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
 		this.planet = new int[x][y];
-		this.x = x;
-		this.y = y;
+		this.width = x;
+		this.height = y;
+		this.x = 0;
+		this.y = 0;
+		this.face = 'N';
 	}
 	
 	public String executeCommand(String command){
@@ -48,5 +54,6 @@ public class PlanetExplorer {
 		 */
 		
 		return null;
+		//return "(" + this.x + ',' + this.y + ',' + this.face + ')';
 	}
 }
