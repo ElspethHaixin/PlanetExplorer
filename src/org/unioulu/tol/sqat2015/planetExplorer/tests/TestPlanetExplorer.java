@@ -19,4 +19,10 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(1, 1, "");
 		assertEquals(1, pe.getY());
 	}
+	
+	@Test
+	public void testPlanet() {
+		PlanetExplorer pe = new PlanetExplorer(1, 1, "");
+		assertEquals(1, pe.getX());
+	}
 }

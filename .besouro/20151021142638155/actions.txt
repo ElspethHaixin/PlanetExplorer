@@ -54,3 +54,4 @@ RefactoringAction 1445428830963 PlanetExplorer.java ADD int heght FIELD
 RefactoringAction 1445428831980 PlanetExplorer.java RENAME heght=>int he FIELD
 RefactoringAction 1445428833997 PlanetExplorer.java RENAME he=>int height FIELD
 EditAction 1445429004569 PlanetExplorer.java 1856 6 11 0
+EditAction 1445429004672 TestPlanetExplorer.java 609 3 6 3
