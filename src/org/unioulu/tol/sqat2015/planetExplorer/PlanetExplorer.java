@@ -53,7 +53,6 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		return null;
-		//return "(" + this.x + ',' + this.y + ',' + this.face + ')';
+		return "(" + this.x + ',' + this.y + ',' + this.face + ')';
 	}
 }
