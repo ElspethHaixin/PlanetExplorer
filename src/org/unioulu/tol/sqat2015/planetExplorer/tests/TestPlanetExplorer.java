@@ -7,7 +7,10 @@ import org.junit.Test;
 public class TestPlanetExplorer {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testPlanet() {
+		PlanetExplorer pe = new PlanetExplorer();
+		
 	}
+	
+	
 }

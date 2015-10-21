@@ -7,3 +7,4 @@ RefactoringAction 1445427669135 PlanetExplorer.java RENAME planert=>int plane FI
 RefactoringAction 1445427875187 TestPlanetExplorer.java RENAME test()=>void testPlanet() METHOD
 RefactoringAction 1445427946691 PlanetExplorer.java REMOVE plane FIELD
 EditAction 1445427948504 PlanetExplorer.java 1346 2 1 0
+EditAction 1445427964234 TestPlanetExplorer.java 257 1 1 0
